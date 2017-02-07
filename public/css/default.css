@@ -1,0 +1,19 @@
+body {
+	background: silver !important;
+}
+.navbar {
+	margin-bottom: 0px !important;
+}
+footer.bg-4 {
+	background-color: #ffffff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 0px !important;
+}
+footer.bg-4 p {
+	margin-bottom: 0px !important;
+}
+.main-content {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
