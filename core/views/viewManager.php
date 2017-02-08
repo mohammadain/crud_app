@@ -8,7 +8,7 @@ class viewManager
 	function __construct()
 	{
 	}
-	public function render($name)
+	public function render($name, $data = array())
 	{
 		require 'app/views/layouts/header.php';
 		require 'app/views/'. $name . '.php';
