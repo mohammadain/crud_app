@@ -1,0 +1,16 @@
+=== CRUD APPLICATION ===
+
+Features:
+
+- Add (Student, Teacher, Course)
+	- Duplicate record can not be inserted. (There is check on each entity ID without refreshing page with Ajax Call)
+- Listing (Student, Teacher, Course)
+- Update Record (Student, Teacher, Course)
+- Delete (Student, Teacher, Course)
+	- Record can be deleted by checking checkboxes and submitting Delete button.
+	- Record can also deleted without refreshing page (Ajax Call) clicking cross X icon at end of each row.
+
+Configurations:
+
+- Need to update db details and path variables in config.php file under app folder.
+- Make sure correct .sql file need to upload in phpmyadmin (crud_app.sql) 

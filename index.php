@@ -1,6 +1,6 @@
 <?php 
 
- 
+// Including all mandatory files
 require 'core/controllers/baseController.php';
 require 'core/views/viewManager.php';
 require 'core/models/baseModel.php';
@@ -19,7 +19,6 @@ if (empty($url[0])) {
 }
 
 require 'app/controllers/' . $url[0] . '.php';
-
 $controller = new $url[0];
 
 if(isset($url[2])) {
@@ -28,13 +27,10 @@ if(isset($url[2])) {
 else {
 	if (isset($url[1])) {
 		$controller->{$url[1]}();
-	}
-	else {
+	} else {
 		$controller->index(); 
 	}
 }
-
-	
 
 ?>
      

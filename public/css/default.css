@@ -17,7 +17,9 @@ footer.bg-4 p {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
-#span_student_id {
+#span_student_id, 
+#span_teacher_id,
+#span_course_id {
 	margin-left: 15px;
     font-size: 12px;
     color: red;
