@@ -14,3 +14,5 @@ Configurations:
 
 - Need to update db details and path variables in config.php file under app folder.
 - Make sure correct .sql file need to upload in phpmyadmin (crud_app.sql) 
+- Download database from https://www.dropbox.com/s/f0l5oam3kz44pm7/crud_app.sql?dl=0
+- Download demo from https://www.dropbox.com/s/o2xi5qlti34d8yj/crud%20app%20demo.mp4?dl=0
